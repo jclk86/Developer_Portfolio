@@ -50,7 +50,6 @@ body {
   padding: 20px 20px;
   text-decoration: none;
   color: white;
-
   text-align: center;
 }
 
@@ -744,6 +743,13 @@ footer {
 
   .numbertext {
     background-color: rgb(0, 0, 0, 0.9);
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .slideshow-container {
+    margin-left: 3px;
+    margin-right: 3px;
   }
 }
 
