@@ -1,5 +1,4 @@
 let slideIndex = 1;
-
 function randomIntFromInterval(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
@@ -50,6 +49,12 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " activeDot";
 }
 
+function getSlides() {
+  if (document.location.pathname.includes("work")) {
+    showSlides(slideIndex);
+  }
+}
+
 // Prev & Next arrows
 $(".prev").click(function() {
   plusSlides(-1);
@@ -82,5 +87,5 @@ $(window).resize(function() {
 
 $(document).ready(function() {
   typing("text");
-  showSlides(slideIndex);
+  getSlides(slideIndex);
 });
