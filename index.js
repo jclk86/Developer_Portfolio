@@ -50,11 +50,6 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " activeDot";
 }
 
-// Adds active class to menu
-// $("#js-navbar-toggle").click(function() {
-//   $("#js-menu").toggleClass("active");
-// });
-
 // Prev & Next arrows
 $(".prev").click(function() {
   plusSlides(-1);

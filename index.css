@@ -42,7 +42,7 @@ body {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: rgb(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .header li a {
@@ -535,7 +535,7 @@ footer {
 .box {
   width: 90%;
   position: relative;
-  background-color: rgb(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   margin: 15px auto;
   border: 2px solid rgb(65, 68, 246);
   border-radius: 2px;
@@ -616,7 +616,7 @@ footer {
   position: absolute;
   width: 100%;
   text-align: center;
-  background-color: rgb(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   margin-top: 6px;
   margin-bottom: 70px;
   padding-bottom: 20px;
@@ -642,7 +642,7 @@ footer {
   margin-right: 2px;
   margin-bottom: 15px;
   margin-top: 10px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255);
   display: inline-block;
   transition: background-color 0.6s ease;
   box-shadow: 0 0 6px 0 white;
@@ -742,7 +742,7 @@ footer {
   }
 
   .numbertext {
-    background-color: rgb(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.9);
   }
 }
 
@@ -782,8 +782,7 @@ footer {
   }
 
   .logo {
-    margin-top: 30px;
-    vertical-align: middle;
+    padding-top: 41px;
     width: 170px;
     font-size: 30px;
   }
