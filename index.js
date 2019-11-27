@@ -89,5 +89,3 @@ $(document).ready(function() {
   typing("text");
   getSlides(slideIndex);
 });
-
-console.log(document.location.pathname.includes("work"));
