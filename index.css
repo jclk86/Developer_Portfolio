@@ -728,6 +728,12 @@ footer {
   }
 }
 
+@media screen and (width: 320px) {
+  #text {
+    margin-top: 30px;
+  }
+}
+
 @media screen and (max-width: 568px) {
   .social_media_link {
     font-size: 19px;
